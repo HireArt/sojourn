@@ -3,6 +3,3 @@ rvm:
  - 2.2.4
  - 2.1.8
  - 2.0.0-p648
-addons:
-  code_climate:
-    repo_token: f8a0ab3c3b30ca6a3091f30a9e344344a80f919837de817d576c0e3f174a4e2c

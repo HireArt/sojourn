@@ -5,15 +5,15 @@ require 'sojourn/version'
 Gem::Specification.new do |spec|
   spec.name          = 'sojourn'
   spec.version       = Sojourn::VERSION
-  spec.authors       = ['Smudge']
-  spec.email         = ['nathan@ngriffith.com']
+  spec.authors       = ['HireArt']
+  spec.email         = ['product@hireart.com']
   spec.summary       = 'Simple user source tracking for Rails.'
   spec.description   = %(
 Sojourn tracks site visitors and sources, with the ability to recognise
 multiple sources per visitor. Each time a new source is detected,
 sojourn tracks the referer, utm data, and logged-in user (if any)).gsub("\n", ' ')
-  spec.homepage      = ''
-  spec.license       = ''
+  spec.homepage      = 'https://github.com/HireArt/sojourn'
+  spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(/^bin/) { |f| File.basename(f) }
